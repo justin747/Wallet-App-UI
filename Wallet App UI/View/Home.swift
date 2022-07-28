@@ -234,7 +234,7 @@ struct ExpenseCardView: View {
         }
         //MARK: Animation
         .foregroundColor(.black)
-        .opacity(showView ? 1 : 0)
+        .opacity(showView ? 1 : 10)
         .offset(y: showView ? 0 : 20)
         .onAppear {
             DispatchQueue.main.asyncAfter(deadline: .now() + 0.3) {
