@@ -14,3 +14,4 @@ struct Card: Identifiable{
     var cardImage: String
     var rotation: CGFloat = 0
 }
+    
